@@ -14,6 +14,7 @@ gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
   gem 'devise'
+  gem 'devise-jwt'
   gem 'dotenv-rails'
   gem 'factory_bot_rails', '~> 6.2.0'
   gem 'faker', '~>3.1.1'
