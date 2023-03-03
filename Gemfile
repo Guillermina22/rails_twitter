@@ -24,6 +24,7 @@ group :development, :test do
 end
 
 group :development do
+  gem 'blueprinter'
   gem "letter_opener"
   gem 'listen', '~> 3.3'
   gem 'spring'
