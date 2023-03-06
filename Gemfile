@@ -20,6 +20,10 @@ group :development, :test do
   gem 'rubocop-rails', require: false
 end
 
+group :test do
+  gem 'shoulda-matchers', '~> 5.0'
+end
+
 group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
