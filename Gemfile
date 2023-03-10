@@ -8,6 +8,7 @@ gem 'rails', '~> 6.1.7', '>= 6.1.7.2'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise', '~> 4.9'
+gem 'devise-jwt'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
@@ -25,7 +26,4 @@ end
 group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
-end
-
-group :production do
 end
