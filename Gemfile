@@ -8,13 +8,13 @@ gem 'rails', '~> 6.1.7', '>= 6.1.7.2'
 
 gem 'bootsnap', '>= 1.4.4', require: false
 gem 'devise', '~> 4.9'
+gem 'devise-jwt'
 gem 'pg', '~> 1.1'
 gem 'puma', '~> 5.0'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]
 
 group :development, :test do
   gem 'byebug', platforms: %i[mri mingw x64_mingw]
-  gem 'devise-jwt'
   gem 'dotenv-rails'
   gem 'factory_bot_rails', '~> 6.2.0'
   gem 'faker', '~>3.1.1'
@@ -26,7 +26,4 @@ end
 group :development do
   gem 'listen', '~> 3.3'
   gem 'spring'
-end
-
-group :production do
 end
